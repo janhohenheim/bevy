@@ -158,6 +158,7 @@ struct SmaaBlendingWeightCalculationPipeline {
     blending_weight_calculation_bind_group_layout: BindGroupLayout,
     /// The shader asset handle.
     shader: Handle<Shader>,
+    /// Some cool change
 }
 
 /// The pipeline data for phase 3 of SMAA: neighborhood blending.
